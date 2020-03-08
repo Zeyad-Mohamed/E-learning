@@ -1,0 +1,135 @@
+#box
+{
+   position: absolute;
+  top: 22%;
+  left : 38%;
+  width: 570px;
+  height: 570px;
+  border: none;
+box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}
+/* Style the footer */
+#footer {
+
+  background-color: #003399;
+  padding: 5px;
+  text-align: left;
+  color: white;
+  
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  
+  
+}
+.specialcase
+{
+fontsize : 20px;
+}
+
+#klam
+{
+font-size : 25px;
+color : white;
+}
+.button {
+  background-color: #003399; 
+width : 220px;
+height :200px;
+  border: none;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  border-radius: 15px;
+margin-top:50px;
+  margin-left : 40px;
+  margin-top : 170px;
+  text-decoration: bold;
+  font-size : 22px;
+  display: inline-block;
+  
+  
+  cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#003399 ;
+	
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #00cccc;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+body
+{
+font-family: "Lato", sans-serif;
+background-color: white;
+margin : 0;
+}
+
+.card {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+	width : 350px;
+	height : 450px;
+  margin: auto;
+  text-align: center;
+  position : absolute;
+	top : 28%;
+	left :19%;
+
+
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+#signout {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #003399;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+

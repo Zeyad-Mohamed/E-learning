@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>about</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+#allpageopacity {
+	background-color: black;
+	opacity: 0.5;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+}
+
+/* Style the header */
+header {
+  background-color: #000868; /*#666*/
+  padding: 10px;
+  text-align: left;
+  font-size: 15px; /*35*/
+  color: white;
+}
+
+/*Div Box*/
+#divboxedit {
+	/*text-align: center;*/
+/*	padding: 4px;*/
+}
+
+
+/*End of div box*/
+
+
+/* Container for flexboxes */
+#section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+/*nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}*/
+
+/* Style the list inside the menu */
+/*nav ul {
+  list-style-type: none;
+  padding: 0;
+}*/
+
+
+
+
+/* Style the content */
+#article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  color: white;
+  text-align: center;
+ /* background-color: #f1f1f1;*/
+  background-image: url("background.JPG");
+  padding: 100px;
+}
+
+/*Editing the texts*/
+#titlepage {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+#paratext {
+  color: black;
+  font-size: 20px;
+}
+#divtxt {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Style the footer */
+#footer {
+  background-color: #000868; /*777*/
+  padding: 5px;
+  text-align: left;
+  color: white;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/*Dashboard*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000868; /*000868 - 003399*/
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+	color : black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #00cccc}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*END OF DASHBOARD*/
+/*copyright things*/
+#copyright{
+	text-align: right;
+}
+#copyright2{
+	text-align: left;
+}
+#div2
+{
+    width: 380px;
+    height: 250px;
+    padding: 20px;
+    background-color: #000868;
+    margin: 5px;
+	margin-left: 130px;
+	margin-top: 70px;
+    opacity: 0.9;
+	}
+	
+	#divtxt1
+	{
+	padding : 45px;
+	  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+	}
+	#divtxt2
+	{
+		padding : 15px;
+		  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+	}
+	#divtxt3
+	{
+		padding : 55px;
+		  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+	}
+	
+</style>
+</head>
+<body>
+
+<header>
+ <ul>
+  <li><a href="localhost/login.php">Log in</a></li>
+ </ul>
+</header>
+
+
+
+	  <div id="article">
+		<h1 id="titlepage">E-LEARNING</h1>
+		<p id="paratext">Welcome to the E-learning</p>
+		<p id="paratext">E-Learning is a website that helps the doctors to communicate and share information easier with their students.</p>
+		
+		<p id="divboxedit">
+		<table>
+			<tr>
+				<td>
+				<div id="div2"><p id="divtxt1">Instructor features:<br> - Adding results <br> - Sending emails<br></p></div>
+				</td>
+				<td>
+				<div id="div2"><p id="divtxt2">Student features:<br> - following results <br> - recieving emails<br> - posting comments in discussion fourm</p></div>
+				</td>
+				<td>
+				<div id="div2"><p id="divtxt3">All of the website connected to server </p></div>
+				</td>
+			</tr>
+		</table>
+		</p>
+	  </div>
+	  
+
+
+<footer id="footer">
+  <p>Copyright © WebDevelopment Project</p>
+</footer>
+
+</body>
+</html>

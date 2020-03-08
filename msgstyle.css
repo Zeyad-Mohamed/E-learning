@@ -1,0 +1,185 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#003399 ;
+	
+}
+
+li {
+    float: left;
+}
+
+h2
+{
+	text-align : center;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #00cccc;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #00cccc}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+* {box-sizing: border-box}
+body 
+{	
+	font-family: "Lato", sans-serif;
+	background-color :white  ;
+	margin : 0;
+}
+
+#sorat7t
+{
+	position : absolute;
+	top : 70%;
+	width : 70%;
+}
+#dicor
+{
+	font-family : sans-serif;
+	font-style: italic;
+	font-size : 22px;
+	float : bottom;
+	padding :2px;
+	margin-top : 630px;
+	color :black;
+	
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #b3e6ff;
+  background-color: #b3e6ff;
+  width: 6%;
+  height: 95.3%;
+  position:relative;
+  left:-120px;
+  transition: all .5s ease-in-out;
+  z-index:9999;
+
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  text-align : left;
+  width: 100%;
+  border: none;
+  padding :13px;
+  margin-bottom: 19px;
+  outline: none;
+  
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.hidden
+{
+	background:#003399;
+	position:absolute;
+	top:375px;
+	left:112px;
+	width:50px;
+	height:30px;
+}
+.tab:hover 
+{
+	left:0px;
+}
+
+#osa7a
+{
+    color: white;
+    position: fixed;
+    left: 903px;
+    top: -25px;
+    font-size: 31px;
+}
+
+#footer {
+
+  background-color: #003399;
+  padding: 5px;
+  text-align: left;
+  color: white;
+  
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  
+  

@@ -1,0 +1,52 @@
+body
+{
+	
+	background-image : url(https://i.ibb.co/bdqmnHX/Picture1.png);
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	
+}
+
+
+#signinbox
+{
+	width : 380px;
+	height : 480px;
+    position: fixed;
+	right: 40%;
+	top: 24%;
+	background-color : #cce6ff;
+	padding: 0.01em 16px;
+    margin: 20px 0;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.66),0 2px 10px 0 rgba(0,0,0,0.72);
+
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:#003399;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+} 
+
+
+#theword
+{
+	color : #003399;
+	font-size : 2.5vw;
+	font-family : Georgia;
+	margin :20px;
+	margin-left :125px;
+}
